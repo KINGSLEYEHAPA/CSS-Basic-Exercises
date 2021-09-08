@@ -1,0 +1,151 @@
+body,
+html {
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+a {
+  margin-right: 15px;
+}
+
+#navigation img.profileimage {
+  width: 26px;
+  background-color: green;
+  height: 26px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#mid-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  position: relative;
+  margin-top: 50px;
+}
+
+#logo {
+  text-align: center;
+}
+
+#mysearchbar {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.search-input,
+.voice {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  left: 10px;
+}
+
+.voice {
+  right: 10px;
+}
+
+#search {
+  outline: 0;
+  width: 550px;
+  border-radius: 25px;
+  border: 1px solid #c4c4c4c4;
+  font-size: 24px;
+  padding: 10px 45px;
+}
+
+#search:hover {
+  box-shadow: 0 0 5px 2px #c4c4c4c4;
+}
+
+#search-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mini {
+  height: 18px;
+  width: 18px;
+  padding: 5px;
+  text-align: center;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px 2px #c4c4c4c4;
+}
+.button {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px;
+  cursor: pointer;
+  background-color: rgb(245, 240, 240);
+  border-radius: 3px;
+  height: 20px;
+}
+
+#languages {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.footer-item {
+  background-color: rgb(238, 237, 237);
+  width: 100%;
+  height: 40px;
+}
+
+#bottom-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 30px;
+}
+
+#bottom-nav {
+  border-top: solid 1px rgb(214, 211, 211);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+.nav-item-special {
+  position: relative;
+  right: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bottom-links {
+  color: gray;
+}
