@@ -146,6 +146,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.bottom-links {
+.bottom-links,
+.link1 {
   color: gray;
 }
