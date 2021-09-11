@@ -16,6 +16,7 @@ h1 {
   margin-left: 35px;
   color: white;
   font-size: 35px;
+  cursor: pointer;
 }
 
 h3 {
@@ -34,7 +35,7 @@ h3 {
   height: 36px;
   margin-left: -10px;
   border-radius: 8px;
-
+  cursor: pointer;
   padding: 0 35px;
   padding-left: 5px;
   outline: none;
@@ -45,7 +46,7 @@ h3 {
   bottom: 38px;
   left: 340px;
   outline: none;
-
+  cursor: pointer;
   width: 24px;
   height: 26px;
   background-color: #ffa722;
@@ -62,6 +63,12 @@ h3 {
   align-items: center;
   width: 100%;
   height: 50px;
+}
+.ext {
+  margin-left: 0;
+  position: relative;
+  right: 42px;
+  padding: 0 25px;
 }
 
 .rest-nav:hover {
@@ -95,6 +102,7 @@ h3 {
   text-align: center;
   color: white;
   margin-right: 20px;
+  cursor: pointer;
 }
 .image {
   height: 25px;
@@ -152,65 +160,90 @@ ul {
 #mid-container {
   background-color: white;
   width: 100%;
-  height: 900px;
+  height: 400px;
   margin-top: 5px;
   display: flex;
-
   justify-content: space-between;
   align-items: flex-start;
 }
 .mid-content {
-  height: 250 px;
-  width: 300px;
+  height: 400px;
+  width: 700px;
   margin: 8px;
   margin-top: 25px;
   border-radius: 8px;
   flex-grow: 1;
-
   font-family: Arial, Helvetica, sans-serif;
 }
-
-#table th,
-#table td {
-  padding: -8px 12px;
-
-  width: 100%;
-  border: 1px solid #ddd;
-  text-align: left;
-  font-size: 14px;
-
-  margin: 0;
-}
-table {
+.table1 {
   border-collapse: collapse;
+  width: 340px;
+  height: 325px;
+  border-radius: 6px;
+  background-color: white;
+  margin: 25px 10px;
+  padding: 20px 12px;
+  line-height: 1.5;
+  border-spacing: 10px;
+  position: relative;
 }
 
-tr td {
-  padding: 12px;
+.table1 thead th {
+  border: 1px solid rgb(233, 230, 227);
+  padding: 15px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
-tr:nth-child(even) {
-  background-color: rgb(247, 247, 247);
-}
-
-.mid-content a {
-  color: rgb(43, 43, 247);
-  padding: 30px 0;
-  text-decoration: none;
-}
-
-h4 {
-  margin-left: 5px;
+.table1 tbody tr {
   text-align: left;
+}
+.table1 tbody tr {
+  border: 1px solid rgb(233, 230, 227);
+  padding: 0 15px;
+}
+.table1 thead tr th td {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.table1 tbody tr a {
+  text-decoration: none;
+  color: #0066c0;
+}
+.table1 th {
+  text-align: left;
+}
+
+.table1 tr:nth-child(even) {
+  background-color: rgb(233, 230, 227);
+}
+
+.first-mid {
+  border: 1px solid rgb(233, 230, 227);
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 300px;
+  padding: 25px;
+}
+
+.first-mid a {
+  color: #0066c0;
+  text-decoration: none;
+  margin-top: 60px;
+  padding: 10px 0px;
+}
+.first-mid ul {
+  padding-left: 25px;
+  padding: 10px;
+  position: relative;
+  bottom: 45px;
+}
+.first-mid h4 {
+  padding-left: 5px;
+  position: relative;
+  bottom: 25px;
+  right: 10px;
 }
 .first-mid li {
-  margin-left: -16px;
-  padding: 10px;
-  font-size: 14px;
-  margin-top: -12px;
-}
-.first-mid {
-  border: 1px solid silver;
-}
-#datepicker {
-  outline: #ffa722;
+  padding: 6px 0;
 }
