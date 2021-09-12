@@ -35,7 +35,6 @@ h3 {
   height: 36px;
   margin-left: -10px;
   border-radius: 8px;
-  cursor: pointer;
   padding: 0 35px;
   padding-left: 5px;
   outline: none;
@@ -161,7 +160,7 @@ ul {
 .mid-container {
   margin-top: 5px;
   background-color: white;
-  height: 2200px;
+  height: 2250px;
 }
 
 .section2 {
@@ -201,12 +200,12 @@ ul {
 }
 .main-area {
   background-color: white;
-  height: 450px;
+  height: 460px;
   width: 64%;
   position: relative;
   bottom: 950px;
   left: 352px;
-  margin: 0 25px 25px 10px;
+  margin: 25px 25px 25px 10px;
   border-radius: 6px;
   border: 1px solid #eaeaea;
 }
@@ -244,28 +243,28 @@ ul {
   bottom: 1085px;
 }
 .card-section1 {
-  height: 250px;
+  height: 325px;
   border: 1px solid #eaeaea;
   width: 325px;
   border-radius: 6px;
   margin: 15px;
 }
 .card-section2 {
-  height: 250px;
+  height: 325px;
   border: 1px solid #eaeaea;
   width: 325px;
   border-radius: 6px;
   margin: 15px;
 }
 .card-section3 {
-  height: 250px;
+  height: 325px;
   border: 1px solid #eaeaea;
   width: 325px;
   border-radius: 6px;
   margin: 15px 15px 15px 0;
 }
 .card-section4 {
-  height: 250px;
+  height: 325px;
   border: 1px solid #eaeaea;
   width: 325px;
   border-radius: 6px;
@@ -436,6 +435,7 @@ ul {
   height: 100px;
   padding: 10px;
   font-weight: 450;
+  line-height: 1.5;
 }
 
 .main-area p a {
@@ -443,5 +443,221 @@ ul {
   color: #0066c0;
 }
 
-.description {
+.description ul li {
+  color: #0066c0;
+  line-height: 1.5;
+}
+.description span {
+  color: #0066c0;
+}
+
+.card1 {
+  background-color: aqua;
+  height: 190px;
+  width: 160px;
+  margin: 5px 10px 35px 10px;
+}
+.versus1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.versus {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #e3b71e;
+  position: relative;
+  bottom: 195px;
+  left: 120px;
+}
+
+.versus h1 {
+  text-align: center;
+  position: relative;
+  right: 16px;
+  top: 15px;
+}
+
+.card-section1 h4 a {
+  text-align: center;
+  text-decoration: none;
+  color: #0066c0;
+}
+
+.card-section1 h4 {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.card1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-section1 .versus-description1 {
+  position: relative;
+  bottom: 154px;
+  left: 34px;
+  font-size: 14px;
+}
+.card-section1 .versus-description2 {
+  position: relative;
+  bottom: 220px;
+  left: 205px;
+  font-size: 14px;
+}
+
+.card2 {
+  background-color: aqua;
+  height: 190px;
+  width: 160px;
+  margin: 5px 10px 35px 10px;
+}
+.versus2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.versus {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #e3b71e;
+  position: relative;
+  bottom: 195px;
+  left: 120px;
+}
+
+.card-section2 h4 a {
+  text-align: center;
+  text-decoration: none;
+  color: #0066c0;
+}
+
+.card-section2 h4 {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.card2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-section2 .versus-description1 {
+  position: relative;
+  bottom: 154px;
+  left: 34px;
+  font-size: 14px;
+}
+.card-section2 .versus-description2 {
+  position: relative;
+  bottom: 220px;
+  left: 205px;
+  font-size: 14px;
+}
+
+.card3 {
+  background-color: aqua;
+  height: 190px;
+  width: 160px;
+  margin: 5px 10px 35px 10px;
+}
+.versus3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.versus {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #e3b71e;
+  position: relative;
+  bottom: 195px;
+  left: 120px;
+}
+
+.card-section3 h4 a {
+  text-align: center;
+  text-decoration: none;
+  color: #0066c0;
+}
+
+.card-section3 h4 {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.card3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-section3 .versus-description1 {
+  position: relative;
+  bottom: 154px;
+  left: 34px;
+  font-size: 14px;
+}
+.card-section3 .versus-description2 {
+  position: relative;
+  bottom: 220px;
+  left: 205px;
+  font-size: 14px;
+}
+
+.card4 {
+  background-color: aqua;
+  height: 190px;
+  width: 160px;
+  margin: 5px 10px 35px 10px;
+}
+.versus4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.versus {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #e3b71e;
+  position: relative;
+  bottom: 195px;
+  left: 120px;
+}
+
+.card-section4 h4 a {
+  text-align: center;
+  text-decoration: none;
+  color: #0066c0;
+}
+
+.card-section4 h4 {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.card4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-section4 .versus-description1 {
+  position: relative;
+  bottom: 154px;
+  left: 34px;
+  font-size: 14px;
+}
+.card-section4 .versus-description2 {
+  position: relative;
+  bottom: 220px;
+  left: 205px;
+  font-size: 14px;
 }
