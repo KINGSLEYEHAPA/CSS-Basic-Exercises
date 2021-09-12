@@ -1,7 +1,7 @@
 body {
   margin: 0 150px;
   background-color: rgb(235, 232, 232);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 #navigation1 {
@@ -175,7 +175,7 @@ ul {
   height: 310px;
 
   flex-grow: 1;
-  border: 1px solid rgb(180, 172, 172);
+  border: 1px solid #eaeaea;
   margin: 60px 15px 20px 0;
   position: relative;
   top: 30px;
@@ -184,30 +184,31 @@ ul {
 
 .shortcuts {
   height: 250px;
-  width: 325px;
-
-  border: 1px solid rgb(180, 172, 172);
-  margin: 60px 15px 20px 15px;
+  width: 315px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #eaeaea;
+  margin: 83px 15px 20px 15px;
   border-radius: 6px;
 }
 .side-bar {
   background-color: white;
-  height: 1000px;
+  height: 1010px;
   width: 330px;
-  margin: 35px 15px 15px 15px;
-  border: 1px solid rgb(180, 172, 172);
+  margin: 50px 15px 15px 15px;
+  border: 1px solid #eaeaea;
   border-radius: 6px;
 }
 .main-area {
   background-color: white;
-  height: 420px;
+  height: 450px;
   width: 64%;
   position: relative;
   bottom: 950px;
   left: 352px;
   margin: 0 25px 25px 10px;
   border-radius: 6px;
-  border: 1px solid rgb(180, 172, 172);
+  border: 1px solid #eaeaea;
 }
 
 .main-area-table1 {
@@ -215,57 +216,57 @@ ul {
   height: 250px;
   width: 64%;
   position: relative;
-  bottom: 750px;
+  bottom: 830px;
   left: 360px;
-  border: 1px solid rgb(180, 172, 172);
+  border: 1px solid #eaeaea;
   border-radius: 6px;
 }
 
 .main-area-table2 {
-  height: 250px;
-  border: 1px solid rgb(180, 172, 172);
+  height: 237px;
+  border: 1px solid #eaeaea;
   width: 325px;
   border-radius: 6px;
   margin: 15px;
   position: relative;
   left: 690px;
-  bottom: 745px;
+  bottom: 815px;
 }
 
 .main-area-table3 {
-  height: 280px;
-  border: 1px solid rgb(180, 172, 172);
+  height: 275px;
+  border: 1px solid #eaeaea;
   width: 325px;
   border-radius: 6px;
   margin: 15px 0 15px 15px;
   position: relative;
   left: 345px;
-  bottom: 1010px;
+  bottom: 1085px;
 }
 .card-section1 {
   height: 250px;
-  border: 1px solid rgb(180, 172, 172);
+  border: 1px solid #eaeaea;
   width: 325px;
   border-radius: 6px;
   margin: 15px;
 }
 .card-section2 {
   height: 250px;
-  border: 1px solid rgb(180, 172, 172);
+  border: 1px solid #eaeaea;
   width: 325px;
   border-radius: 6px;
   margin: 15px;
 }
 .card-section3 {
   height: 250px;
-  border: 1px solid rgb(180, 172, 172);
+  border: 1px solid #eaeaea;
   width: 325px;
   border-radius: 6px;
   margin: 15px 15px 15px 0;
 }
 .card-section4 {
   height: 250px;
-  border: 1px solid rgb(180, 172, 172);
+  border: 1px solid #eaeaea;
   width: 325px;
   border-radius: 6px;
   margin: 15px 15px 15px 0;
@@ -276,27 +277,171 @@ ul {
   justify-content: flex-end;
   margin: 15px;
   position: relative;
-  bottom: 1015px;
-  left: 15px;
+  bottom: 1100px;
+  left: 12px;
 }
 .footer {
   width: 100%;
-  height: 200px;
+  height: 150px;
   background-color: rgb(88, 83, 83);
 }
 
 .table1 {
   width: 325px;
+  font-size: 14px;
+  padding: 10px;
+  border-collapse: collapse;
+  border-spacing: 5;
 }
-.table1 thead tbody tr {
-  border: 1px rgb(88, 83, 83);
+.table1 tbody tr {
+  border: 1px solid #eaeaea;
 }
+.table1 tbody tr td,
+.table1 thead tr th {
+  padding: 10px;
+}
+
 .table1 tbody tr a {
   text-decoration: none;
   color: #0066c0;
+  margin: 0 15px 25px 15px;
 }
+.table1 tbody tr :last-child {
+  text-align: right;
+  padding-right: 15px;
+}
+
+.table1 thead th:nth-child(1) {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.table1 tbody tr:nth-child(even) {
+  background-color: #eaeaea;
+}
+.option {
+  border: none;
+}
+
 .shortcuts ul a {
   text-decoration: none;
   color: #0066c0;
   text-align: left;
+}
+
+.shortcuts ul {
+  text-decoration: none;
+  color: #0066c0;
+  padding-left: 0;
+  position: relative;
+  left: 16px;
+}
+.shortcuts ul li {
+  padding: 0 2px 5px 0;
+}
+.table-side {
+  width: 325px;
+  font-size: 14px;
+  padding: 10px;
+  border-collapse: collapse;
+  border-spacing: 5;
+}
+
+.table-side tbody tr td,
+.table-side thead tr th {
+  padding: 10px;
+}
+.side-table thead tr th {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.side-table tr td a {
+  padding: 10px 25px;
+}
+
+.table-side tbody tr a {
+  text-decoration: none;
+  color: #0066c0;
+  margin: 0 15px 25px 15px;
+}
+.table-side tbody tr :last-child {
+  text-align: right;
+  padding-right: 15px;
+}
+
+.table-side thead th:nth-child(1) {
+  text-align: left;
+  padding-left: 15px;
+}
+.wide-table {
+  width: 100%;
+  height: 250px;
+  font-size: 14px;
+  border-collapse: collapse;
+  border-spacing: 1;
+}
+.wide-table tbody tr {
+  border: 1px solid #eaeaea;
+}
+.wide-table tbody tr td,
+.wide-table thead tr th {
+  padding: 0px;
+}
+.wide-table thead tr th {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.wide-table tbody tr a {
+  text-decoration: none;
+  color: #0066c0;
+  margin: 0 15px 25px 15px;
+}
+.wide-table tbody tr :last-child {
+  text-align: right;
+  padding-right: 15px;
+}
+
+.wide-table thead th:nth-child(1) {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.wide-table tbody tr:nth-child(even) {
+  background-color: #eaeaea;
+}
+
+.main-image {
+  width: 100%;
+  height: 340px;
+}
+.main-area .main-title {
+  z-index: 200;
+  background-color: rgb(88, 83, 83, 0.5);
+  position: absolute;
+  top: 66%;
+  width: 100%;
+  height: 40px;
+}
+.main-area .main-title h3 {
+  position: relative;
+
+  top: 2px;
+  margin: 5px;
+}
+.main-area p {
+  background-color: rgb(235, 232, 232);
+  margin-top: -3px;
+  height: 100px;
+  padding: 10px;
+  font-weight: 450;
+}
+
+.main-area p a {
+  text-decoration: none;
+  color: #0066c0;
+}
+
+.description {
 }
