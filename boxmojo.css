@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(88, 83, 83);
+  background-color: #4c4d4b;
   height: 130px;
   margin-top: 20px;
 }
@@ -121,7 +121,7 @@ h3 {
 #social-select {
   width: 18px;
   height: 10px;
-  background-color: rgb(88, 83, 83);
+  background-color: #4c4d4c;
   text-align: center;
   border: none;
   outline: 0;
@@ -151,7 +151,7 @@ ul {
   padding: 15px;
   text-align: center;
   text-decoration: none;
-  color: rgb(88, 83, 83);
+  color: #4c4d4c;
   font-weight: 550;
   position: relative;
   top: 13px;
@@ -282,7 +282,7 @@ ul {
 .footer {
   width: 100%;
   height: 150px;
-  background-color: rgb(88, 83, 83);
+  background-color: #4c4d4c;
 }
 
 .table1 {
@@ -660,4 +660,62 @@ ul {
   bottom: 220px;
   left: 205px;
   font-size: 14px;
+}
+
+.footer-element1 {
+  height: 30px;
+  width: 98%;
+}
+.footer-element2 {
+  height: 60px;
+  width: 330px;
+  position: relative;
+  left: 360px;
+}
+.footer-element3 {
+  height: 50px;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.footer-element1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.footer-element1 p {
+  position: relative;
+  left: 230px;
+  color: white;
+  font-size: 12px;
+}
+.footer-element1 p a {
+  color: white;
+  font-size: 12px;
+  padding: 0 6px;
+}
+.bottom-logo {
+  color: white;
+  font-weight: bold;
+}
+
+.footer-element2 {
+  text-align: center;
+  font-size: 12px;
+}
+.footer-element2 p {
+  color: white;
+}
+.footer-element2 p a {
+  color: white;
+}
+
+.footer-element3 p {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+.footer-element3 p a {
+  color: white;
 }
