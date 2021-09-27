@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background-color: rgb(101, 190, 146);
+}
+
+.site-container {
+  background-color: rgb(114, 134, 73);
+  width: 80%;
+  text-align: center;
+}
